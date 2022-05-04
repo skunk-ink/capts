@@ -19,3 +19,17 @@
    CRYPTO ANALYSIS AND PROGRAMMATIC TRADING SOFTWARE 
                     ▀█████████████▀                  
 ```
+
+### How to run
+```
+python3 CAPTS.py
+```
+
+### Dependancies
+```
+pip install pandas
+pip install numpy
+pip install plotly
+pip install getch
+pip install cbpro
+```
