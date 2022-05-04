@@ -21,6 +21,8 @@
 ```
 
 ### How to run
+Before operating you will need to add your Coinbase API keys to the `keyfile` located under `data/keyfile.dat`. Kraken has not been implemented.
+
 ```
 python3 CAPTS.py
 ```
