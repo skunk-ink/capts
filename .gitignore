@@ -2,3 +2,4 @@ __pycache__
 data/keyfile.bak
 notifications.py.bak
 notification_daemon2.py
+temp-plot.html
