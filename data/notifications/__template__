@@ -1,0 +1,15 @@
+# Trigger and Alert Settings
+
+PID : 0
+NOTIFICATION_NAME : New Notification
+NOTIFICATION_TYPE : EMAIL
+TRADING_PAIR : BTC-USD
+TRIGGER_TYPE : GREATER
+TRIGGER : 0.00
+DEVIATION_AMT  0.00
+
+
+# Notification Settings
+
+SUBJECT : BTC-USD Greater than ${:.2f}
+MESSAGE : Bitcoin is now at ${:.2f}

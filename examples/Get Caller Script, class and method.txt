@@ -1,0 +1,16 @@
+import inspect
+
+stack = inspect.stack()
+
+self.clear_screen()
+
+self.CALLER['CLASS'] = str(stack[1][0].f_locals["self"].__class__.__name__)
+self.CALLER['METHOD'] = str(stack[1][0].f_code.co_name)
+
+frame = inspect.stack()[1]
+module = inspect.getmodule(frame[0])
+filename = os.path.basename(module.__file__)
+filename = filename.strip(".py")
+print(str(module) + " : " + str(filename))
+print("I was called by " + self.CALLER['CLASS'] + "." + self.CALLER['METHOD'] + "()")
+sleep(5)

@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=0.0.3
+Type=Application
+Encoding=UTF-8
+Name=CAPTS
+Icon=/home/pi/CAPTS/icon.png
+Exec=python3 /home/pi/CAPTS/CAPTS.py
+Terminal=true
+Category=Crypto-Currency
+Path=/home/pi/CAPTS
+Comment[en_US]=
+GenericName=Crypto Analysis and Programmatic Trading Software
