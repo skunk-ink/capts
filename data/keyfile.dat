@@ -5,8 +5,8 @@
 #   eg. <exchange name> : <public key> : <private key> : <pass phrase>   #
 #                                                                        #
 #                Exchange Name       |     Unique ID                     #
-#	        --------------------------------------------	             #
-#	         Coinbase Pro API        |     COINBASE_PRO                  #
+#	         --------------------------------------------	                 #
+#	         Coinbase Pro API          |     COINBASE_PRO                  #
 #                Kraken API          |     KRAKEN                        #
 #                                                                        #
 ##########################################################################
