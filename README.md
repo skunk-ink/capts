@@ -27,7 +27,7 @@ Before operating you will need to add your Coinbase API keys to the `keyfile` lo
 python3 CAPTS.py
 ```
 
-### Dependancies
+### Dependencies
 ```
 pip install pandas
 pip install numpy
